@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationController"; title = "Tab 1"; ObjectID = "G62-W7-VbD"; */
+"G62-W7-VbD.title" = "选项卡 1";
+
+/* Class = "UIViewController"; title = "Tab 2"; ObjectID = "Rzk-7k-pNE"; */
+"Rzk-7k-pNE.title" = "选项卡 2";
+
+/* Class = "UILabel"; text = "Feel free to share or contribute \nif you find this library useful."; ObjectID = "U5J-tG-6pe"; */
+"U5J-tG-6pe.text" = "感谢使用,有更好的建议可以发邮件给我详细说明";
+
+/* Class = "UILabel"; text = "Thanks for checking this out! "; ObjectID = "ykK-nv-HD7"; */
+"ykK-nv-HD7.text" = "祝你好运";

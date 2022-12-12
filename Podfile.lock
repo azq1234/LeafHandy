@@ -1,0 +1,36 @@
+PODS:
+  - BTNavigationDropdownMenu (0.7)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.10)
+  - LookinServer (1.0.6)
+  - SnapKit (5.6.0)
+  - SnapKitExtend (1.1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - BTNavigationDropdownMenu
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - LookinServer
+  - SnapKitExtend
+
+SPEC REPOS:
+  trunk:
+    - BTNavigationDropdownMenu
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - LookinServer
+    - SnapKit
+    - SnapKitExtend
+
+SPEC CHECKSUMS:
+  BTNavigationDropdownMenu: 57a72c74dc211db3564f5be168f4f7643491a7de
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  LookinServer: 18155b1e4a08213c236a1dd6b7ca52328a70a1e3
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SnapKitExtend: aa30cf37196195fae9c4354686cc7710184ebfcc
+
+PODFILE CHECKSUM: 3de72e35f62858dd77a18e5eecb25b2b6561f1e1
+
+COCOAPODS: 1.11.3

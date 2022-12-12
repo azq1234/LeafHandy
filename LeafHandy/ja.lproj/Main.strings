@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationController"; title = "Tab 1"; ObjectID = "G62-W7-VbD"; */
+"G62-W7-VbD.title" = "タブ 1";
+
+/* Class = "UIViewController"; title = "Tab 2"; ObjectID = "Rzk-7k-pNE"; */
+"Rzk-7k-pNE.title" = "タブ 2";
+
+/* Class = "UILabel"; text = "Feel free to share or contribute \nif you find this library useful."; ObjectID = "U5J-tG-6pe"; */
+"U5J-tG-6pe.text" = "使用していただきありがとうございます。より良い提案があれば、詳細を説明するメールを送ってください";
+
+/* Class = "UILabel"; text = "Thanks for checking this out! "; ObjectID = "ykK-nv-HD7"; */
+"ykK-nv-HD7.text" = "幸運を";

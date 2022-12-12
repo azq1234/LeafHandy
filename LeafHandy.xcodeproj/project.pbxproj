@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0088E52F0CC1D920E4AD4A74 /* Pods_LeafHandy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B4698F595F08C003D92544 /* Pods_LeafHandy.framework */; };
+		849567B72944829000F15439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567B62944829000F15439 /* AppDelegate.swift */; };
+		849567B92944829000F15439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567B82944829000F15439 /* SceneDelegate.swift */; };
+		849567BB2944829000F15439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567BA2944829000F15439 /* ViewController.swift */; };
+		849567BE2944829000F15439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849567BC2944829000F15439 /* Main.storyboard */; };
+		849567C02944829300F15439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849567BF2944829300F15439 /* Assets.xcassets */; };
+		849567C32944829300F15439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849567C12944829300F15439 /* LaunchScreen.storyboard */; };
+		849567CC29471E0C00F15439 /* LHNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567CA29471E0C00F15439 /* LHNoteCell.swift */; };
+		849567CD29471E0C00F15439 /* LHNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849567CB29471E0C00F15439 /* LHNoteCell.xib */; };
+		849567CF2947321600F15439 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567CE2947321600F15439 /* Diary.swift */; };
+		849567D22947324200F15439 /* CreateNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567D02947324200F15439 /* CreateNoteVC.swift */; };
+		849567D32947324200F15439 /* CreateNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849567D12947324200F15439 /* CreateNoteVC.xib */; };
+		849567D529474CCA00F15439 /* ExetionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567D429474CCA00F15439 /* ExetionColor.swift */; };
+		849567D829474EE700F15439 /* ChangeNoteBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849567D629474EE700F15439 /* ChangeNoteBackVC.swift */; };
+		849567D929474EE700F15439 /* ChangeNoteBackVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849567D729474EE700F15439 /* ChangeNoteBackVC.xib */; };
+		849567E2294753E300F15439 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849567E4294753E300F15439 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73A23498DC1663E71033F2A5 /* Pods-LeafHandy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafHandy.release.xcconfig"; path = "Target Support Files/Pods-LeafHandy/Pods-LeafHandy.release.xcconfig"; sourceTree = "<group>"; };
+		849567B32944829000F15439 /* LeafHandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafHandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849567B62944829000F15439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849567B82944829000F15439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		849567BA2944829000F15439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849567BD2944829000F15439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849567BF2944829300F15439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849567C22944829300F15439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849567C42944829400F15439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849567CA29471E0C00F15439 /* LHNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHNoteCell.swift; sourceTree = "<group>"; };
+		849567CB29471E0C00F15439 /* LHNoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHNoteCell.xib; sourceTree = "<group>"; };
+		849567CE2947321600F15439 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		849567D02947324200F15439 /* CreateNoteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNoteVC.swift; sourceTree = "<group>"; };
+		849567D12947324200F15439 /* CreateNoteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNoteVC.xib; sourceTree = "<group>"; };
+		849567D429474CCA00F15439 /* ExetionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExetionColor.swift; sourceTree = "<group>"; };
+		849567D629474EE700F15439 /* ChangeNoteBackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNoteBackVC.swift; sourceTree = "<group>"; };
+		849567D729474EE700F15439 /* ChangeNoteBackVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeNoteBackVC.xib; sourceTree = "<group>"; };
+		849567DA2947517F00F15439 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		849567DB2947517F00F15439 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		849567DC2947518600F15439 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		849567DD2947518600F15439 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		849567DE294751C000F15439 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		849567DF294751C000F15439 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		849567E3294753E300F15439 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		849567E5294753E600F15439 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		849567E6294753EA00F15439 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		849567E7294753EB00F15439 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E8B4698F595F08C003D92544 /* Pods_LeafHandy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeafHandy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6577D1D9E3A03BF344A6503 /* Pods-LeafHandy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafHandy.debug.xcconfig"; path = "Target Support Files/Pods-LeafHandy/Pods-LeafHandy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849567B02944829000F15439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0088E52F0CC1D920E4AD4A74 /* Pods_LeafHandy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849567AA2944829000F15439 = {
+			isa = PBXGroup;
+			children = (
+				849567B52944829000F15439 /* LeafHandy */,
+				849567B42944829000F15439 /* Products */,
+				CC6CE66CBA153A33ECDDA5E7 /* Pods */,
+				B8ABA8189129E2160A685920 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		849567B42944829000F15439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849567B32944829000F15439 /* LeafHandy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849567B52944829000F15439 /* LeafHandy */ = {
+			isa = PBXGroup;
+			children = (
+				849567B62944829000F15439 /* AppDelegate.swift */,
+				849567B82944829000F15439 /* SceneDelegate.swift */,
+				849567BA2944829000F15439 /* ViewController.swift */,
+				849567D02947324200F15439 /* CreateNoteVC.swift */,
+				849567D12947324200F15439 /* CreateNoteVC.xib */,
+				849567D629474EE700F15439 /* ChangeNoteBackVC.swift */,
+				849567D729474EE700F15439 /* ChangeNoteBackVC.xib */,
+				849567D429474CCA00F15439 /* ExetionColor.swift */,
+				849567E4294753E300F15439 /* Localizable.strings */,
+				849567CE2947321600F15439 /* Diary.swift */,
+				849567CA29471E0C00F15439 /* LHNoteCell.swift */,
+				849567CB29471E0C00F15439 /* LHNoteCell.xib */,
+				849567BC2944829000F15439 /* Main.storyboard */,
+				849567BF2944829300F15439 /* Assets.xcassets */,
+				849567C12944829300F15439 /* LaunchScreen.storyboard */,
+				849567C42944829400F15439 /* Info.plist */,
+			);
+			path = LeafHandy;
+			sourceTree = "<group>";
+		};
+		B8ABA8189129E2160A685920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8B4698F595F08C003D92544 /* Pods_LeafHandy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6CE66CBA153A33ECDDA5E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6577D1D9E3A03BF344A6503 /* Pods-LeafHandy.debug.xcconfig */,
+				73A23498DC1663E71033F2A5 /* Pods-LeafHandy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849567B22944829000F15439 /* LeafHandy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849567C72944829400F15439 /* Build configuration list for PBXNativeTarget "LeafHandy" */;
+			buildPhases = (
+				DF92901F4E7BF40A8333AA64 /* [CP] Check Pods Manifest.lock */,
+				849567AF2944829000F15439 /* Sources */,
+				849567B02944829000F15439 /* Frameworks */,
+				849567B12944829000F15439 /* Resources */,
+				4D5C7D4E142D7FBA12EDA215 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeafHandy;
+			productName = LeafHandy;
+			productReference = 849567B32944829000F15439 /* LeafHandy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849567AB2944829000F15439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					849567B22944829000F15439 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 849567AE2944829000F15439 /* Build configuration list for PBXProject "LeafHandy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				ko,
+				"zh-Hans",
+			);
+			mainGroup = 849567AA2944829000F15439;
+			productRefGroup = 849567B42944829000F15439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849567B22944829000F15439 /* LeafHandy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849567B12944829000F15439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849567C32944829300F15439 /* LaunchScreen.storyboard in Resources */,
+				849567CD29471E0C00F15439 /* LHNoteCell.xib in Resources */,
+				849567C02944829300F15439 /* Assets.xcassets in Resources */,
+				849567E2294753E300F15439 /* Localizable.strings in Resources */,
+				849567D929474EE700F15439 /* ChangeNoteBackVC.xib in Resources */,
+				849567D32947324200F15439 /* CreateNoteVC.xib in Resources */,
+				849567BE2944829000F15439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D5C7D4E142D7FBA12EDA215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeafHandy/Pods-LeafHandy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeafHandy/Pods-LeafHandy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeafHandy/Pods-LeafHandy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF92901F4E7BF40A8333AA64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeafHandy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849567AF2944829000F15439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849567D22947324200F15439 /* CreateNoteVC.swift in Sources */,
+				849567D529474CCA00F15439 /* ExetionColor.swift in Sources */,
+				849567BB2944829000F15439 /* ViewController.swift in Sources */,
+				849567CF2947321600F15439 /* Diary.swift in Sources */,
+				849567CC29471E0C00F15439 /* LHNoteCell.swift in Sources */,
+				849567B72944829000F15439 /* AppDelegate.swift in Sources */,
+				849567B92944829000F15439 /* SceneDelegate.swift in Sources */,
+				849567D829474EE700F15439 /* ChangeNoteBackVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849567BC2944829000F15439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849567BD2944829000F15439 /* Base */,
+				849567DA2947517F00F15439 /* ja */,
+				849567DC2947518600F15439 /* ko */,
+				849567DE294751C000F15439 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849567C12944829300F15439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849567C22944829300F15439 /* Base */,
+				849567DB2947517F00F15439 /* ja */,
+				849567DD2947518600F15439 /* ko */,
+				849567DF294751C000F15439 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		849567E4294753E300F15439 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849567E3294753E300F15439 /* en */,
+				849567E5294753E600F15439 /* zh-Hans */,
+				849567E6294753EA00F15439 /* ja */,
+				849567E7294753EB00F15439 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849567C52944829400F15439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849567C62944829400F15439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849567C82944829400F15439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6577D1D9E3A03BF344A6503 /* Pods-LeafHandy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANYUVK8F8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeafHandy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leafhandy.icloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849567C92944829400F15439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A23498DC1663E71033F2A5 /* Pods-LeafHandy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANYUVK8F8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeafHandy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leafhandy.icloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849567AE2944829000F15439 /* Build configuration list for PBXProject "LeafHandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849567C52944829400F15439 /* Debug */,
+				849567C62944829400F15439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849567C72944829400F15439 /* Build configuration list for PBXNativeTarget "LeafHandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849567C82944829400F15439 /* Debug */,
+				849567C92944829400F15439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849567AB2944829000F15439 /* Project object */;
+}
